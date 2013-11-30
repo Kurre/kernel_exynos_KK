@@ -84,3 +84,4 @@ GTAGS
 *.orig
 *~
 \#*#
+r*-build.log
