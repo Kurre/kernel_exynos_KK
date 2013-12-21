@@ -2573,8 +2573,6 @@ static void pl330_free_chan_resources(struct dma_chan *chan)
 
 
 	spin_lock_irqsave(&pch->lock, flags);
-
-	spin_lock_irqsave(&pch->lock, flags);
 	pl330_release_channel(pch->pl330_chid);
 	pch->pl330_chid = NULL;
 
